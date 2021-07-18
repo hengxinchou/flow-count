@@ -8,8 +8,8 @@
     <artifactId>flow-count</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
@@ -44,7 +44,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.allen.capturewebdata.Main</mainClass>
+                            <mainClass>com.hengxin.flowcount.FlowCount</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
